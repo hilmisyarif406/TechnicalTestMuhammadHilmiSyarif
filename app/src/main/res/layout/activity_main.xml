@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technical Test Gits.ID"
+        android:textColor="#00a1e6"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="28sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Muhammad Hilmi Syarif"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="hilmi.syarif18228@student.unsika.ac.id \nhilmisyarif406@gmail.com"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n"/>
+
+    <Button
+        android:id="@+id/btnSoalSatu"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="Soal 1 - Hello World" />
+    <Button
+        android:id="@+id/btnSoalDua"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="Soal 2 - Email Check" />
+    <Button
+        android:id="@+id/btnSoalTiga"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="Soal 3 - Konversi Waktu" />
+    <Button
+        android:id="@+id/btnSoalEmpat"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="Soal 4 - Reverse Kalimat" />
+    <Button
+        android:id="@+id/btnSoalLima"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="Soal 5 - Kalimat Palindrome" />
+
+
+</LinearLayout>

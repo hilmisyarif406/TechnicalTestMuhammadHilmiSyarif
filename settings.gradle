@@ -1,0 +1,2 @@
+rootProject.name = "TechTask Hilmi"
+include ':app'

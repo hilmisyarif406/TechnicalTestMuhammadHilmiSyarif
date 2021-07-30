@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TimeConvActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardBackgroundColor="#00a1e6"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:text="@string/soalTiga"
+            android:textColor="@color/black"/>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Format Waktu"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/formatwaktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/formatam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:text="AM" />
+
+        <RadioButton
+            android:id="@+id/formatpm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:text="PM" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:hint="Jam"
+            android:id="@+id/inptJam"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:hint="Menit"
+            android:id="@+id/inptMenit"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:hint="Detik"
+            android:id="@+id/inptDetik"
+            android:inputType="number"
+            android:maxLength="2" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Convert"
+        android:textColor="@color/white"
+        android:id="@+id/btnProses"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="40sp"
+        android:id="@+id/hasil"/>
+</LinearLayout>
